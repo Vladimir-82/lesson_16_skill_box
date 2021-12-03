@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 import requests
 
 response = requests.get('https://meduza.io/')
-# print(response.text)
+# added venv
 sours = "ExchangeRates-item"
 
 if response.status_code == 200:
