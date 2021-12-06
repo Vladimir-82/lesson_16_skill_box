@@ -48,7 +48,7 @@ class Horns(peewee.Model):
 
 Horns.create_table()
 
-# # Шаг 2 - распознаем лица
+# Шаг 2 - распознаем лица
 
 for image_path in downloaded_files:
 
